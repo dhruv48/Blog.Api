@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blog.Common\Blog.Common.csproj" />
+    <ProjectReference Include="..\Blog.DB\Blog.DB.csproj" />
+    <ProjectReference Include="..\Blog.Services\Blog.Services.csproj" />
+  </ItemGroup>
+
+</Project>
